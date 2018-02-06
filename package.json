@@ -1,0 +1,14 @@
+{
+  "name": "docker-express",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "author": "snlamm",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
