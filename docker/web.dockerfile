@@ -10,6 +10,8 @@ RUN yarn install --pure-lockfile
 
 COPY . .
 
+WORKDIR /
+
 EXPOSE 3000
 
 CMD [ "yarn", "run", "start" ]
